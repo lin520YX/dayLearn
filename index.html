@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <p>{{a.a}}</p>
+    <div>{{b}}</div>
+</div>
+<script src="mvvm.js"></script>
+<script>
+    let yf=new Yf({
+        el:'#app',
+        data:{a:{a:1},b:1}
+    })
+</script>
+</body>
+</html>

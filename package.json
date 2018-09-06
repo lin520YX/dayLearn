@@ -1,0 +1,11 @@
+{
+  "name": "dayLearn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lin520YX/dayLearn.git",
+  "author": "'lin13177896353@163.com' <'lin13177896353@163.com'>",
+  "license": "MIT",
+  "dependencies": {
+    "pako": "^1.0.6"
+  }
+}
