@@ -5,15 +5,25 @@
     <title>Title</title>
 </head>
 <body>
+<style>
+    #app{
+        background: red;
+        color: #fff;
+    }
+    #app p{
+        color: green;
+    }
+</style>
 <div id="app">
     <p>{{a.a}}</p>
+    <p>{{a.c}}</p>
     <div>{{b}}</div>
 </div>
 <script src="mvvm.js"></script>
 <script>
     let yf=new Yf({
         el:'#app',
-        data:{a:{a:1},b:1}
+        data:{a:{a:'我叫谭汉荣',c:'超级大傻逼'},b:'我是个大傻逼'}
     })
 </script>
 </body>
